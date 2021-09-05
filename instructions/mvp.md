@@ -6,18 +6,18 @@ It's January of 2020 and you've just been contacted by a Ma and Pa resturant cal
 
 "Hip Hop: Pizza and Wangs" has been getting a lot of traffic to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper method.
 
-They would like to have a a POS (point of sale) system built for them to help with keeping up with the times as well as their orders! After hearing their story you happily accept their request.
+They would like to have a a POS (point of sale) system built for them to help keep up with times as well as their orders! After hearing their story you happily accept their request.
 
 You call up your developer buddies to help you build out this appication so that you can get it up and running for them as soon as possible.
 
 ### Part 1: ERDs and Authentication
 
-* Clone this repo
+* Use the Webpack Template in your cohort org
 * Create a setup branch
 * Do all the stuff needed when setting up the project. Reference the webpack instructions if needed. These include making the updates to the `.env` file
   * Create a new firebase project, database, and enable google authentication, etc.
 * Create an authentication branch and add a navbar with a logout button, and place the google login button somewhere for you to test
-  * Note: There are components that you can use to get started and style later. We just want you to get your auth set up by yourself.**
+  * Note: There are components that you can use to get started and style later. We just want you to get your auth set up by yourself.
 * When your user is**logged out** they should see the navbar with only a brand.  And an h1 on the page that says Hip Hop Pizza and Wings (make a `homeLoggedOut` component for this)
 * When your user is logged in they should see a navbar with a brand and a logout button and an H1 on the page that says, Welcome user! (make a `homeLoggedIn` component for this)
 
@@ -34,7 +34,7 @@ You call up your developer buddies to help you build out this appication so that
 * As an authenticated user, I should be able to see a list of all of the orders.
 * As an authenticated user, I should be able to see the following details from a single order:
   * Order Name
-  * Order Status (open or close)
+  * Order Status (open or closed)
   * Customer Phone Number
   * Customer Email Address
   * Order Type (phone or in-person)
