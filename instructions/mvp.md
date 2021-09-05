@@ -2,7 +2,7 @@
 
 ## Problem
 
-It's January of 2020 and you've just been contacted by a Ma and Pa resturant called "Hip Hop: Pizza and Wangs" that saw your LinkedIn post where you offered your development services to anyone in need to help build out your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
+You've just been contacted by a Ma and Pa resturant called "Hip Hop: Pizza and Wangs" that saw your LinkedIn post where you offered your development services to anyone in need to help build out your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
 
 The concept of Hip Hop: Pizza and Wangs is that music and food is where fun can happen. Their clientele are 25 - 45 year old professionals who appreciate old school hip hop while enjoying pizza, wings and their favorite beverage. It is also an art scene for artists who create art that embody the hip hop culture.
 
