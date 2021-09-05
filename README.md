@@ -1,6 +1,10 @@
-# Hip Hop - Pizza and Wangs
+<div style="text-align:center">
+<h1>Hip Hop - Pizza and Wangs</h1>
+
+<image src="./instructions/hhpw-record.png" style="height:300px;"></image></div>
 
 ## Get Started
+**READ ALL INSTRUCTIONS BEFORE BEGINNING THIS PROJECT.** Take notes as you read.
 
 Everything that needs to be done before coding starts.
 
@@ -14,13 +18,13 @@ Everything that needs to be done before coding starts.
 
 ## Definition of Done
 
-Do not submit this project until all of the following are complete
+Do not submit this project until all of the following are complete:
 
-* All items are completed in getting started
-* MVP, defined by the Acceptance Criteria, has been completed
-* The project has been deployed
-* Loom video has been created
-* README.md has been updated. Use this ticket as a guide
+1. All items are completed in getting started
+1. MVP, defined by the Acceptance Criteria, has been completed
+1. The project has been deployed
+1. Loom video has been created
+1. `README.md` has been updated.
 
 ## Requirements
 
@@ -29,7 +33,7 @@ Things to remember while coding out the project
 * Clean code - single responsibility principle
 * ES6 Modules bundled with webpack
 * No errors - linters should be clean
-* Bootstrap for styling
+* Bootstrap 5 for styling
 * Completely planned out - before each section you should be making new cards before you code.
 * You should have wireframes and an ERD
 
@@ -39,8 +43,3 @@ Things to remember while coding out the project
 * [Stretch Goals 1 - Filtering the Data](./instructions/stretch-1.md)
 * [Stretch Goals 2 - Dealing with Change](./instructions/stretch-2.md)
 * [Stretch Goals 3 - Play that Funky Music](./instructions/stretch-3.md)
-
-## References
-
-Link to FB documentation
-Link to README.md guide
