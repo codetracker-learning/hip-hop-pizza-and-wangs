@@ -2,9 +2,9 @@
 
 ## Problem
 
-It's January of 2020 and you've just been contacted by a Ma and Pa resturant called "Hip Hop: Pizza and Wangs" that saw your LinkedIn post where you offered your development services to anyone in need to help build out your portfolio. You had just graduated from a Coding Bootcamp and needed all the real experience you could get to help you land your first Job in tech.
+It's January of 2020 and you've just been contacted by a Ma and Pa resturant called "Hip Hop: Pizza and Wangs" that saw your LinkedIn post where you offered your development services to anyone in need to help build out your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
 
-"Hip Hop: Pizza and Wangs" have been getting a lot of traffic to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper method.
+"Hip Hop: Pizza and Wangs" has been getting a lot of traffic to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper method.
 
 They would like to have a a POS (point of sale) system built for them to help with keeping up with the times as well as their orders! After hearing their story you happily accept their request.
 
