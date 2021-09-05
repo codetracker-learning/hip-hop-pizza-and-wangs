@@ -14,9 +14,10 @@ You call up your developer buddies to help you build this appication so that you
 
 ### Part 1: ERDs and Authentication
 
-* Use the Webpack Template in your cohort org
+* Ensure all teammates have access to the repo and have it pulled down to their machines
 * Create a setup branch
-* Do all the stuff needed when setting up the project. Reference the webpack instructions if needed. These include making the updates to the `.env` file
+* Do all the stuff needed when setting up the project. Reference the webpack instructions if needed. These include:
+  *  making the updates to the `.env` file
   * Create a new firebase project, database, and enable google authentication, etc.
 * Create an authentication branch and add a navbar with a logout button, and place the google login button somewhere for you to test
   * Note: There are components that you can use to get started and style later. We just want you to get your auth set up by yourself.
