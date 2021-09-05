@@ -8,7 +8,7 @@ The concept of Hip Hop: Pizza and Wangs is that music and food is where fun can 
 
 Hip Hop: Pizza and Wangs is a spot that you can take a meeting or hang out. Since the pandemic in 2020, they have had to change their business model and offer call in orders and business is booming. They have been getting a lot of call in orders to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper order tracking method.
 
-They would like to have a a POS (point of sale) system built for them to help keep up with their orders! After hearing their story you happily accept the request.
+They would like to have a a POS (point of sale) system built for them to help keep up with their orders! After hearing their story you happily accept the request. They will be primarily using the application on tablet devices.
 
 You call up your developer buddies to help you build this appication so that you can get it up and running for Hip Hop: Pizza and Wangs as soon as possible.
 
