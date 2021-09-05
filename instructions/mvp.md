@@ -1,20 +1,20 @@
 # MVP Definition - It Gets the Job Done
-
 ### Problem
 
-You've just been contacted by a Ma and Pa resturant called **Hip Hop: Pizza and Wangs** which has been in the community for over 30 years. They saw your LinkedIn post offering your app development services to any small businesses in need to help build your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
+You've just been contacted by a Ma and Pa resturant called **Hip Hop, Pizza, and Wangs** which has been in the community for over 30 years. They saw your LinkedIn post offering your app development services to any small businesses in need to help build your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
 
-The concept of Hip Hop: Pizza and Wangs is the crossroads of music and food is where fun happens. Their clientele are 25 - 45 year old urban professionals who appreciate old school hip hop while enjoying pizza, wings and their favorite beverage. Their average income is between $80,000 - $120,000 per year. It is also an art scene for artists who create art that embodies hip hop culture.
+The concept of HHP+W is the crossroads of music and food is where fun happens. Their clientele are 25 - 45 year old urban professionals who appreciate old school hip hop while enjoying pizza, wings and their favorite beverage. Their customer's average income is between $80,000 - $120,000 per year. It is also an art scene for artists who create art that embodies hip hop culture.
 
-Hip Hop: Pizza and Wangs is a spot that you can take a meeting or hang out. Since the pandemic in 2020, they've had to change their business model and offer call in orders and business is booming. 
+HHP+W is a spot that you can take a meeting or hang out. Since the pandemic in 2020, they've had to change their business model and offer call in orders and business is booming. 
 
-They have been getting a lot of call in orders to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper order tracking method.
+HHP+W been getting a lot of call in orders to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper order tracking method.
 
 They would like to have a POS (point of sale) application built for them to help keep up with their orders! They will be primarily using the application on tablet devices. After hearing their story you happily accept the request.
 
-You call up your developer buddies to help you build this appication so that you can get it up and running for Hip Hop: Pizza and Wangs as soon as possible.
+You call up your developer buddies to help you build this appication so that you can get it up and running for HHP+W as soon as possible.
 
 ## Get Started
+* Review [wireframe](https://www.figma.com/file/4y3EZddALuBR3ouSEM57Np/MVP?node-id=0%3A1)
 * Ensure all teammates have access to the repo and have it pulled down to their machines
 * Create a setup branch
 * Do all the stuff needed when setting up the project. These include:
@@ -25,19 +25,36 @@ You call up your developer buddies to help you build this appication so that you
 ## Part 1: ERDs and Authentication
 * Create an authentication branch and add a navbar with a logout button, and place the google login button somewhere for you to test
   * Note: There are components that you can use to get started and style later. We just want you to get your auth set up by yourself.
-* When your user is **logged out** they should see the navbar with only a brand.  And an h1 on the page that says Hip Hop Pizza and Wings (make a `homeLoggedOut` component for this)
-* When your user is logged in they should see a navbar with a brand and a logout button and an H1 on the page that says, Welcome user! (make a `homeLoggedIn` component for this)
+* When your user is **logged out**:
+  - They should NOT see the navbar. 
+  - They should see either an h1 or the Logo on the page that says Hip Hop Pizza and Wings (make a `homeLoggedOut` component for this)
+  - A button to login
+* When your user is **logged in**:
+  - Navbar:
+    - they should see a navbar with a brand
+    - A logout button in the navbar
+    - A link to view all orders in the navbar
+    - A link to Create an Order in the navbar
+  - Page:
+    - And an H1 on the page that says, Welcome, username! (make a `homeLoggedIn` component for this)
+    - Button to view orders
+    - Button to create an order
+    - Button to view revenue
 
 ## Part 2: READ
 
 ### Setup
 
-* Create some JSON data.
+* Create some JSON data
 * Import that data into firebase
+* Test your endpoints using Postman and create a collection for your app
 
 #### Acceptence Criteria
 
-* As an authenticated user, when the app first loads, I should see a home screen that Welcome's the user with their name and a button that reads "View Orders".
+* As an authenticated user, when the app first loads, I should see a home screen that Welcome's the user with their name and the following buttons:
+  - View Orders
+  - Create an Order
+
 * As an authenticated user, I should be able to see a list of all of the orders.
 * As an authenticated user, I should be able to see the following details from a single order:
   * Order Name
@@ -65,13 +82,11 @@ You call up your developer buddies to help you build this appication so that you
 
 * As an authenticated user, I should be able to update the following information on an order: Order Name, Customer Phone Number, Customer Email Address, and Order Type
 * As an authenticated user, I should be able to update the following information on an order item: Item name and Item Price
-
-## Part 6: Revenue
-
 * As an authenticated user, when I'm looking at an order, I should be able to click a button that will take me to a Close Order Form. I should be able to input the following information:
   * Payment Type (cash, check, debit, credit, or mobile-payment)
   * Tip Amount
 * As an authenticated user, when I submit the Close Order form, the order's status should change from "Open" to "Closed".
+## Part 6: Revenue
 * As an authenticated user, when I submit the Close Order form, a new revenue node is created with the following information:
   * Total Order Amount (including tip)
   * Date

@@ -1,6 +1,7 @@
 # Stretch Goals 1: Filtering the Data
 
 ## Problem
+Your team did a wonderful job building the MVP version of the POS. The problem is that now nothing is organized for the users. Review the AC below and identify ways your team can help tackle these issues.
 
 ## Acceptence Criteria
 

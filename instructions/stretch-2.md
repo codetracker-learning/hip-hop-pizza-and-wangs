@@ -2,11 +2,11 @@
 
 ## Problem
 
-You have built an amazing application for the Hip Hop: Pizza and Wangs resturant. They are very greatful for your generosity, that even though you offered to do it for free, they were able to smoothly make so much money that they could not let you refuse a payment of $4,000 which makes about $1,000 per person (cha-ching).
+You have built an amazing application for the Hip Hop, Pizza, and Wangs resturant. They are very greatful for your generosity, that even though you offered to do it for free, they were able to smoothly make so much money that they could not let you refuse a payment of $4,000 which makes about $1,000 per person (cha-ching).
 
-It's now May 2020, and you're still job hunting. The pandemic has slowed down your search as many companies are undergoing an job hiring freeze.
+It's now mid-year, and you're still job hunting. The pandemic has slowed down your search as many companies are undergoing an job hiring freeze.
 
-So as you're scrolling through social media, you notice some familiar faces. The owners of Hip Hop: Pizza and Wangs! They just posted advertising that they are still open and are offering take out by phone order. You're so happy that they were able to stay open for during the pandemic, that you contacted them to catch up.
+So as you're scrolling through social media, you notice some familiar faces. The owners of Hip Hop, Pizza, and Wangs! They just posted advertising that they are still open and are offering take out by phone order. You're so happy that they were able to stay open for during the pandemic, that you contacted them to catch up.
 
 After messaging your hello's and asking them how everything's going, the topic of how the app is currently working for them came up. They still use it and it has been one of the things that has been able to keep their doors open during these difficult times. But they do get a lot of calls from customers asking if they can place an order online themselves and even be able to see their menu when calling in an order.
 
@@ -14,6 +14,19 @@ After you read that message, you had an idea. With all the time on your hands, y
 
 ## Acceptence Criteria
 
+### The Menu
+* **ONLY** Admin users should be able to CRUD items to the menu. The items should include:
+  - Title
+  - Image 
+  - Price
+  - Description
+
+* There should be a new view added to the application that shows the menu items and allows users to add those items to an order. 
+
+**NOTE:** You will need to refacter the old app and remove the ability to add items to an order manually. You can likely reuse the form to add items to the menu with the added fields, but after the menu is created, users should only be able to add from the menu and not a form.
+
+---
+### Online Orders
 * As a non-admin authenticated user, I should only be able to do CRUD and close the orders I've created.
 * As an admin authenticated user, I should be able to do CRUD and close all orders.
 * As a non-admin authenticated user, I should only be able to view the revenue information from my order history.
@@ -32,3 +45,6 @@ After you read that message, you had an idea. With all the time on your hands, y
 * As an admin and non-admin authenticated user, I should be able to add an menu item from the menu to an order as an order item, and should no longer be able to type in an item name and price.
 
 * As a non-admin authenticated user, I should only be able to view, create and delete an order item. (No longer able to update)
+
+## Hint
+It might be good to either put user types on users OR use your `.env` file to list the userIDs of your admins and compare those with the user who logs in.
