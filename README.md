@@ -8,9 +8,9 @@ Everything that needs to be done before coding starts.
 * **Postman Collection** - Create a postman collection to store and test out all of your API calls.
 * **Wireframes** - Plan out how the application should look.
 * **Flowchart** - Plan out the flow of your data through the application
-* **Issue Tickets** - Using the Project Instructions as a guide, create issue tickets for this project’s work.
-* **Milestones** - Separate those issue tickets into Milestones to plan out the work.
-* **Project Board** - Create a project board, add all of your issue tickets, and order them by priority.
+* **Github Issue Tickets** - Using the Project Instructions as a guide, create issue tickets for this project’s work.
+* **Github Milestones** - Separate those issue tickets into Milestones to plan out the work.
+* **Github Project Board** - Create a project board, add all of your issue tickets, and order them by priority.
 
 ## Definition of Done
 
