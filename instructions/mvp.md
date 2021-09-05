@@ -4,11 +4,13 @@
 
 It's January of 2020 and you've just been contacted by a Ma and Pa resturant called "Hip Hop: Pizza and Wangs" that saw your LinkedIn post where you offered your development services to anyone in need to help build out your portfolio. You are in the middle of your coding bootcamp and need all the real experience you can get to help you land your first job in tech.
 
-"Hip Hop: Pizza and Wangs" has been getting a lot of traffic to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper method.
+The concept of Hip Hop: Pizza and Wangs is that music and food is where fun can happen. Their clientele are 25 - 45 year old professionals who appreciate old school hip hop while enjoying pizza, wings and their favorite beverage. It is also an art scene for artists who create art that embody the hip hop culture.
 
-They would like to have a a POS (point of sale) system built for them to help keep up with times as well as their orders! After hearing their story you happily accept their request.
+Hip Hop: Pizza and Wangs is a spot that you can take a meeting or hang out. Since the pandemic in 2020, they have had to change their business model and offer call in orders and business is booming. They have been getting a lot of call in orders to their store since placing an ad on Facebook and they can't seem to keep up with the new influx of orders using their current pencil and paper order tracking method.
 
-You call up your developer buddies to help you build out this appication so that you can get it up and running for them as soon as possible.
+They would like to have a a POS (point of sale) system built for them to help keep up with their orders! After hearing their story you happily accept the request.
+
+You call up your developer buddies to help you build this appication so that you can get it up and running for Hip Hop: Pizza and Wangs as soon as possible.
 
 ### Part 1: ERDs and Authentication
 
