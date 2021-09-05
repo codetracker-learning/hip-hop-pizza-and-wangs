@@ -10,7 +10,7 @@ Everything that needs to be done before coding starts.
 
 * **ERD** - Create an ERD to show the relationships between all of  your data
 * **Postman Collection** - Create a postman collection to store and test out all of your API calls.
-* **[Wireframes](https://www.figma.com/file/4y3EZddALuBR3ouSEM57Np/MVP?node-id=0%3A1)** - This is the basic MVP wireframe. You can choose to style how you wish. (View the [click through prototype](https://www.figma.com/proto/4y3EZddALuBR3ouSEM57Np/MVP?node-id=3%3A4960&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2) if you want to see the flow)
+* **[Wireframes](https://www.figma.com/file/4y3EZddALuBR3ouSEM57Np/MVP?node-id=0%3A1)** - This is the basic MVP wireframe. You can choose to style how you wish. (View the [click through prototype](https://www.figma.com/proto/4y3EZddALuBR3ouSEM57Np/MVP?scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2) if you want to see the flow)
 * **Flowchart** - Plan out the flow of your data through the application
 * **Github Issue Tickets** - Using the Project Instructions as a guide, create issue tickets for this project’s work.
 * **Github Milestones** - Separate those issue tickets into Milestones to plan out the work.
