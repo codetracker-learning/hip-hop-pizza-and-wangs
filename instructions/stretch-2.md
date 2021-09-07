@@ -27,23 +27,23 @@ After you read that message, you had an idea. With all the time on your hands, y
 
 ---
 ### Online Orders
+**Non-admin Users**
 * As a non-admin authenticated user, I should only be able to do CRUD and close the orders I've created.
-* As an admin authenticated user, I should be able to do CRUD and close all orders.
 * As a non-admin authenticated user, I should only be able to view the revenue information from my order history.
-* As an admin authenticated user, I should be able to view all revenue information.
-
 * As a non-admin authenticated user, I should only be able to have one open order at a time.
 
+**Admin Users**
+* As an admin authenticated user, I should be able to do CRUD and close all orders.
+* As an admin authenticated user, I should be able to view all revenue information.
 * As an admin authenticated user, I should be able to view, create, delete and edit all of the menu items
 
+**All users:**
 * As an admin and non-admin authenticated user, I should be able to view all of the menu items with the following information:
   * Menu Item Name
   * Menu Item Price
   * Menu Item Image
   * Is Menu Item Is On Sale
-
 * As an admin and non-admin authenticated user, I should be able to add an menu item from the menu to an order as an order item, and should no longer be able to type in an item name and price.
-
 * As a non-admin authenticated user, I should only be able to view, create and delete an order item. (No longer able to update)
 
 ## Hint
