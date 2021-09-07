@@ -35,7 +35,7 @@ Things to remember while coding out the project
 * ES6 Modules bundled with webpack
 * No errors - linters should be clean
 * Bootstrap 5 for styling
-* Completely planned out - before each section you should be making new cards before you code
+* Completely planned out - before each section you should be making new cards on your Github project board before you code
 * Wireframes are provided for you for MVP
 * You should have an ERD
 
